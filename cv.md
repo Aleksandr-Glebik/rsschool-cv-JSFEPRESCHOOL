@@ -25,3 +25,14 @@ I am 30 years old, last 6 months i study on front end developer and learn englis
 - **~NodeJS**;
 - **~WebPack**;
 ***
+
+##Education
+- **University:** Belarusian State Technological University, specialty "mechanical engineer";
+- **Course:**
+        + **YouTube:**
+        1. [Web Junior, Dmitry Lavrik.](https://www.youtube.com/watch?v=8i3iTVsdnrg&list=PLyeqauxei6jddpCRnLoQIpkRGxaip5pJ4);
+        - **Udemy:**
+        1. [Loyout designer comtetence - HTML, CSS, JavaScript.](https://www.mishanep.com/);
+        2. [Vanilla JavaScript (2021)](https://www.udemy.com/course/jacascript-for-beginners/);
+        3. [JavaScript (2021) Complete guide from 0 to pro](https://www.udemy.com/course/javascript-full-guide/);
+***
