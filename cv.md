@@ -62,3 +62,9 @@ function init() {
 }
 init()
 ```
+
+***
+##Languages
+- Russian - Native;
+- English - A1 (studying now);
+- Polish - A1;
