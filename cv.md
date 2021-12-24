@@ -36,3 +36,29 @@ I am 30 years old, last 6 months i study on front end developer and learn englis
         2. [Vanilla JavaScript (2021)](https://www.udemy.com/course/jacascript-for-beginners/);
         3. [JavaScript (2021) Complete guide from 0 to pro](https://www.udemy.com/course/javascript-full-guide/);
 ***
+##Code Example
+
+```
+const clockContainer = document.getElementById('jsClock')
+const clockTitle = clockContainer.querySelector('h1')
+const clockDate = clockContainer.querySelector('h2')
+function getTime() {
+    let date = new Date()
+    let hours = date.getHours()
+    let minutes = date.getMinutes()
+    let seconds = date.getSeconds()
+    clockTitle.innerHTML = `${hours < 10 ? `0${hours}`: hours}:${minutes < 10 ? `0${minutes}`: minutes}:${seconds < 10 ? `0${seconds}`: seconds}`
+}
+function getDate() {
+    let date = new Date()
+    let year = date.getFullYear()
+    let month = date.getMonth() + 1
+    let day = date.getDate()
+    clockDate.innerHTML = `${day < 10 ? `0${day}`: day}.${month < 10 ? `0${month}`: month}.${year < 10 ? `0${year}`: year}`
+}
+function init() {
+    setInterval(getTime, 1000)
+    getDate()
+}
+init()
+```
