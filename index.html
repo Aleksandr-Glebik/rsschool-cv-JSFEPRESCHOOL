@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV2. HTML, CSS & Git Basics</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Aleksandr Glebik</h1>
+    <img src="img/myFoto.jpg" alt="my foto" class="foto">
+    <div class="contacts">
+      <h2>Contacts</h2>
+      <ul>
+        <li><b>Location:</b> Grodno, Belarus;</li>
+        <li><b>Phone:</b> +375-33-310-61-62;</li>
+        <li><b>Email:</b> glebikaa@mail.ru;</li>
+        <li><b>GitHub:</b> Aleksandr-Glebik;</li>
+        <li><b>Discord:</b> glebikaa;</li>
+      </ul>
+    </div>
+    <div class="about-me">
+      <h2>About me</h2>
+      <p>I am 30 years old, last 6 months i study on front end developer and learn english too. This is my second attempt pass the course "JavaScript/Front-end. Stage 0" in RS School, last time i was not able to complete all js tasks, and left the race. All this time I studied on my own and took several courses, this time I plan to take courses RS School completely and find a job.
+      </p>
+    </div>
+    <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><b>HTML</b></li>
+        <li><b>CSS</b></li>
+        <li><b>JS</b> (Basic)</li>
+        <li><b>Git / GitHub</b></li>
+        <li><b>Figma</b></li>
+        <li><b>~NodeJS</b></li>
+        <li><b>~WebPack</b></li>
+      </ul>
+    </div>
+    <div class="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>University:</strong>
+          <p>Belarusian State Technological University, specialty "mechanical engineer";</p>
+        </li>
+        <li>
+          <strong>Course:</strong>
+          <ol>
+            <li><a href="https://www.youtube.com/watch?v=8i3iTVsdnrg&list=PLyeqauxei6jddpCRnLoQIpkRGxaip5pJ4">Web Junior, Dmitry Lavrik.</a></li>
+            <li><a href="https://www.udemy.com/course/web-coder/">Loyout designer comtetence - HTML, CSS, JavaScript.</a></li>
+            <li><a href="https://www.udemy.com/course/jacascript-for-beginners/">Vanilla JavaScript (2021)</a></li>
+            <li><a href="https://www.udemy.com/course/javascript-full-guide/">JavaScript (2021) Complete guide from 0 to pro</a></li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+    <div class="code-example">
+      <h2>Code Example</h2>
+      <code>
+        function getTime() {<br>
+          let date = new Date()<br>
+          let hours = date.getHours()<br>
+          let minutes = date.getMinutes()<br>
+          let seconds = date.getSeconds()<br>
+          clockTitle.innerHTML = `${hours < 10 ? `0${hours}`: hours}:${minutes < 10 ? <br>`0${minutes}`: minutes}:${seconds < 10 ? `0${seconds}`: seconds}`<br>
+      }<br>
+          function init() {<br>
+            setInterval(getTime, 1000)<br>
+          }<br>
+          init()<br>
+      </code>
+    </div>
+    <div class="languages">
+      <h2>Languages</h2>
+      <ul>
+        <li><b>Russian</b> - Native;</li>
+        <li><b>English</b> - A1 (studying now);</li>
+        <li><b>Polish</b> - A1;</li>
+      </ul>
+    </div>
+  </body>
+</html>
