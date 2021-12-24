@@ -37,5 +37,38 @@
         <li><b>~WebPack</b></li>
       </ul>
     </div>
+    <div class="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>University:</strong>
+          <p>Belarusian State Technological University, specialty "mechanical engineer";</p>
+        </li>
+        <li>
+          <strong>Course:</strong>
+          <ol>
+            <li><a href="https://www.youtube.com/watch?v=8i3iTVsdnrg&list=PLyeqauxei6jddpCRnLoQIpkRGxaip5pJ4">Web Junior, Dmitry Lavrik.</a></li>
+            <li><a href="https://www.udemy.com/course/web-coder/">Loyout designer comtetence - HTML, CSS, JavaScript.</a></li>
+            <li><a href="https://www.udemy.com/course/jacascript-for-beginners/">Vanilla JavaScript (2021)</a></li>
+            <li><a href="https://www.udemy.com/course/javascript-full-guide/">JavaScript (2021) Complete guide from 0 to pro</a></li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+    <div class="code-example">
+      <h2>Code Example</h2>
+      <code>
+        function getTime() {<br>
+          let date = new Date()<br>
+          let hours = date.getHours()<br>
+          let minutes = date.getMinutes()<br>
+          let seconds = date.getSeconds()<br>
+          clockTitle.innerHTML = `${hours < 10 ? `0${hours}`: hours}:${minutes < 10 ? <br>`0${minutes}`: minutes}:${seconds < 10 ? `0${seconds}`: seconds}`<br>
+      }<br>
+          function init() {<br>
+            setInterval(getTime, 1000)<br>
+          }<br>
+          init()<br>
+      </code>
+    </div>
   </body>
 </html>
