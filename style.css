@@ -1,7 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:wght@300&family=Righteous&family=Roboto+Slab:wght@100;200;300;400&display=swap');
+/*
+h1-h2 {
+  font-family: 'Righteous', cursive;
+  font-family: 'Roboto Slab', serif;
+}
+about-me {
+  font-family: 'Dancing Script', cursive;
+}
+standart {
+  font-family: 'Nunito Sans', sans-serif;
+}
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+h1,
+h2 {
+  font-family: 'Righteous', cursive;
+  /* font-family: 'Roboto Slab', serif; */
+  font-weight: 400;
+}
+li {
+  font-family: 'Nunito Sans', sans-serif;
+}
+.p__uppercase {
+  font-family: 'Dancing Script', cursive;
 }
 .wrapper {
   max-width: 1024px;
