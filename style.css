@@ -55,9 +55,11 @@ li {
   align-items: flex-start;
 }
 .foto {
-  width: 250px;
+  width: 220px;
   border: 1px solid black;
-  border-radius: 30px;
+  border-radius: 60px 5px 140px 5px;
+  align-self: center;
+  margin: 50px;
 }
 .section__right {
   background-color: rgb(55, 234, 247);
