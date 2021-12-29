@@ -108,16 +108,36 @@ li {
   padding: 2rem;
   font-size: 2.8rem;
   /* border: .1rem solid #fff; */
-  border-radius: 2rem 0.5rem 14rem 0.5rem;
+  border-radius: 8rem 3.5rem 14rem 0.5rem;
   background: linear-gradient(45deg, rgb(171, 171, 171), #fff);
+  position: relative;
+  z-index: 3;
+}
+.desc__header {
+  width: 100%;
+  background-color: #4682b4;
+  border-radius: 0 3.5rem 14rem 0;
+  position: relative;
+}
+.desc__header::after {
+  position: absolute;
+  top: 10.3rem;
+  left: 0;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 5rem solid #4682b4;
+  border-right: 5rem solid transparent;
+  z-index: 0;
 }
 .desc__header-title {
-  padding: 0 1rem;
+  padding: 3rem 2rem 0 2rem;
   font-size: 3.6rem;
 }
 .desc__header-text {
   margin-left: 18rem;
   font-size: 3.2rem;
+  padding-bottom: 1rem;
 }
 .footer {
   height: 30px;
