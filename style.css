@@ -11,6 +11,9 @@ standart {
   font-family: 'Nunito Sans', sans-serif;
 }
 */
+html {
+  font-size: 10px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -39,9 +42,17 @@ li {
 }
 .main {
   background-color: rgb(180, 180, 181);
+  display: flex;
+  justify-content: space-between;
 }
 .section__left {
   background-color: rgb(122, 157, 247);
+  min-width: 32rem;
+  height: 75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .foto {
   width: 250px;
@@ -50,6 +61,11 @@ li {
 }
 .section__right {
   background-color: rgb(55, 234, 247);
+  height: 75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .footer {
   height: 30px;
