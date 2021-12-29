@@ -103,7 +103,7 @@ li {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.desc-title {
+.desc__title {
   color: #4682b4;
   width: 100%;
   padding: 2rem;
@@ -140,11 +140,27 @@ li {
   font-size: 3.2rem;
   padding-bottom: 1rem;
 }
-.desc-block {
+.desc__block {
   background: linear-gradient(45deg, rgb(225, 225, 225), rgb(212, 235, 245));
   padding: 2rem;
   border-radius: 3rem;
   margin: 1rem 2rem;
+}
+.desc__text {
+  font-size: 2rem;
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+.desc__text-strong {
+  margin: 2rem;
+}
+.desc__link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+}
+.desc__link:hover {
+  text-shadow: .1rem .1rem .2rem #4682b4;
 }
 .footer {
   height: 30px;
