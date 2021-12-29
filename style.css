@@ -160,15 +160,30 @@ li {
   font-weight: 400;
 }
 .desc__link:hover {
-  text-shadow: .1rem .1rem .2rem #4682b4;
+  text-shadow: 0.1rem 0.1rem 0.2rem #4682b4;
 }
 .desc__text-code {
   font-size: 1.8rem;
   font-weight: 100;
   font-style: italic;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 .footer {
-  height: 30px;
-  background-color: rgb(200, 200, 252);
+  margin-top: 1rem;
+  height: 7rem;
+  background: linear-gradient(180deg, #7babd2, rgb(251, 251, 251));
+  border-radius: 10rem 10rem 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__logo {
+  width: 10rem;
+}
+.footer__icon {
+  font-size: 5rem;
+  color: #000;
+}
+.footer__icon:hover {
+  color: #4682b4;
 }
