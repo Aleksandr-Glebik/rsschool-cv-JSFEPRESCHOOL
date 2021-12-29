@@ -96,7 +96,7 @@ li {
   grid-row-gap: 0.5rem;
 }
 .desc {
-  background-color: rgb(55, 234, 247);
+  /* background-color: rgb(55, 234, 247); */
   /* height: 75rem; */
   display: flex;
   flex-direction: column;
@@ -161,6 +161,12 @@ li {
 }
 .desc__link:hover {
   text-shadow: .1rem .1rem .2rem #4682b4;
+}
+.desc__text-code {
+  font-size: 1.8rem;
+  font-weight: 100;
+  font-style: italic;
+  letter-spacing: .1rem;
 }
 .footer {
   height: 30px;
