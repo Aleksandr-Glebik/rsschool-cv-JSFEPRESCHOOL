@@ -13,6 +13,7 @@ standart {
 */
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 * {
   margin: 0;
@@ -186,4 +187,32 @@ li {
 }
 .footer__icon:hover {
   color: #4682b4;
+}
+.header {
+  margin-bottom: 1rem;
+  height: 7rem;
+  background: linear-gradient(0deg, #7babd2, rgb(251, 251, 251));
+  border-radius: 0 0 10rem 10rem;
+}
+.nav {
+  height: 7rem;
+}
+.header__links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__link {
+  text-decoration: none;
+  scroll-behavior: smooth;
+  color: #000;
+}
+.header__link:hover {
+  text-shadow: 0.1rem 0.1rem 0.2rem #4682b4;
+}
+
+.header__text {
+  font-size: 2rem;
+  list-style-type: none;
+  margin-top: 1.5rem;
 }

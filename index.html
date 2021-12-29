@@ -10,12 +10,21 @@
   <body>
     <div class="wrapper">
       <header class="header">
-        Header
+        <nav class="nav">
+          <ul class="header__links">
+            <li class="header__text"><a href="#about-me" class="header__link">About me</a></li>
+            <li class="header__text"><a href="#education" class="header__link">Education</a></li>
+            <li class="header__text"><a href="#code" class="header__link">Code Example</a></li>
+            <li class="header__text"><a href="#contacts" class="header__link">Contacts</a></li>
+            <li class="header__text"><a href="#skills" class="header__link">Skills</a></li>
+            <li class="header__text"><a href="#languages" class="header__link">Languages</a></li>
+          </ul>
+        </nav>
       </header>
       <main class="main">
         <section class="info">
           <img src="img/myFoto.jpg" alt="my-foto" class="info__foto">
-          <div class="info__block">
+          <div class="info__block" id="contacts">
             <h2 class="info__title">Contacts</h2>
             <ul>
               <li class="info__text"><i class="fas fa-home info__icon"></i> Grodno, Belarus;</li>
@@ -25,7 +34,7 @@
               <li class="info__text"><i class="fab fa-discord info__icon"></i> glebikaa;</li>
             </ul>
           </div>
-          <div class="info__block">
+          <div class="info__block" id="skills">
             <h2 class="info__title">Skills</h2>
             <ul class="info__block-grid">
               <li class="info__text"><i class="fab fa-html5 info__icon"></i><b>HTML</b></li>
@@ -37,7 +46,7 @@
               <li class="info__text"><i class="fas fa-cube info__icon"></i><b>WebPack</b></li>
             </ul>
           </div>
-          <div class="info__block">
+          <div class="info__block" id="languages">
             <h2 class="info__title">Languages</h2>
             <ul>
               <li class="info__text"><b>Russian</b> - Native;</li>
@@ -51,7 +60,7 @@
             <h1 class="desc__header-title">Aleksandr Glebik</h1>
             <p class="p__uppercase desc__header-text">front end developer</p>
           </div>
-          <div>
+          <div id="about-me">
             <h2 class="desc__title">About me</h2>
             <div class="desc__block">
               <p class="p__uppercase">&nbsp;&nbsp;&nbsp;&nbsp;I am 30 years old, for the last 6 months I have been studying to be a front-end developer, I am also learning English.</p>
@@ -60,7 +69,7 @@
               <p class="p__uppercase">&nbsp;&nbsp;&nbsp;&nbsp;In 2022, I want to become a full-fledged specialist and be in demand in the labor market.</p>
             </div>
           </div>
-          <div>
+          <div id="education">
             <h2 class="desc__title">Education</h2>
             <ul class="desc__block">
               <li class="desc__text"><strong class="desc__text-strong">University:</strong>
@@ -77,7 +86,7 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div id="code">
             <h2 class="desc__title">Code Example</h2>
             <div class="desc__block desc__text-code">
               <code>
