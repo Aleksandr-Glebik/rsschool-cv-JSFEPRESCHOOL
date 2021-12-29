@@ -83,6 +83,9 @@ li {
   list-style-type: none;
   margin-bottom: .5rem;
 }
+.section__left-items i {
+  margin: 0 .5rem;
+}
 .section__right {
   background-color: rgb(55, 234, 247);
   /* height: 75rem; */
