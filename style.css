@@ -30,6 +30,7 @@ li {
 }
 .p__uppercase {
   font-family: "Dancing Script", cursive;
+  font-size: 2.2rem;
 }
 .wrapper {
   max-width: 1024px;
@@ -139,9 +140,8 @@ li {
   font-size: 3.2rem;
   padding-bottom: 1rem;
 }
-.desc-text {
+.desc-block {
   background: linear-gradient(45deg, rgb(225, 225, 225), rgb(212, 235, 245));
-  font-size: 2.2rem;
   padding: 2rem;
   border-radius: 3rem;
   margin: 1rem 2rem;
