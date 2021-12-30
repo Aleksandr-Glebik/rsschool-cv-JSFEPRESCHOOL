@@ -210,7 +210,10 @@ li {
 .header__link:hover {
   text-shadow: 0.1rem 0.1rem 0.2rem #4682b4;
 }
-
+.info__link {
+  color: #fff;
+  text-decoration: auto;
+}
 .header__text {
   font-size: 2rem;
   list-style-type: none;
