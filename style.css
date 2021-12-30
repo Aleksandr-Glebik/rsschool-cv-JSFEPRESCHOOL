@@ -223,3 +223,35 @@ li {
   list-style-type: none;
   margin-top: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    border-radius: 0 0 5rem 5rem;
+    margin-bottom: .6rem;
+  }
+  .header__text {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+  .desc__header-title {
+    padding: 2rem 2rem 0 2rem;
+  }
+  .desc__header-text {
+    margin-left: 15rem;
+  }
+  .info {
+    min-width: 28rem;
+    padding: 3.5rem 0;
+    justify-content: flex-start;
+  }
+  .info__block {
+    margin-top: 6rem;
+  }
+  .desc__block {
+    margin: .2rem .2rem;
+  }
+  .footer {
+    border-radius: 5rem 5rem 0 0;
+    margin-top: .6rem;
+  }
+}
