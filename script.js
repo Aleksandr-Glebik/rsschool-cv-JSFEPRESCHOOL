@@ -1,7 +1,6 @@
 const navPanel = document.querySelector('#navigationPanel');
 const hideClass = 'header__links_hidden';
 
-
 function showNavBar() {
     const cls = navPanel.classList;
     if (cls.contains(hideClass)) {
@@ -9,7 +8,6 @@ function showNavBar() {
     } else {
         cls.add(hideClass);
     }
-
 }
 
 navPanel.addEventListener('click', function(event) {
