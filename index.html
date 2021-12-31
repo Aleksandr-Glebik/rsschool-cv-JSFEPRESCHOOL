@@ -11,8 +11,8 @@
     <div class="wrapper">
       <header class="header">
         <nav class="nav">
-          <a href="#" class="header__link burger__btn"><i class="fas fa-bars"></i> Navigation</a>
-          <ul class="header__links">
+          <a id="navigationBtn" href="#" class="header__link burger__btn" onclick="showNavBar()"><i class="fas fa-bars"></i> Navigation</a>
+          <ul id="navigationPanel" class="header__links header__links_hidden">
             <li class="header__text"><a href="#about-me" class="header__link">About me</a></li>
             <li class="header__text"><a href="#education" class="header__link">Education</a></li>
             <li class="header__text"><a href="#code" class="header__link">Code Example</a></li>
@@ -127,6 +127,7 @@
         <a href="https://github.com/Aleksandr-Glebik" target="_blank"><i class="fab fa-github footer__icon"></i></a>
       </footer>
     </div>
+    <script src="./script.js"></script>
     <script src="https://kit.fontawesome.com/2a1e31490f.js" crossorigin="anonymous"></script>
   </body>
 </html>
