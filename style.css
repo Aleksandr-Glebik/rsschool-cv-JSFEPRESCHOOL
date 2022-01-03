@@ -343,6 +343,9 @@ li {
     margin-top: 5.5rem;
     font-size: 2.2rem;
   }
+  .non_content-info {
+    padding-top: 5rem;
+  }
   .non_content-desc {
     margin-top: -5rem;
   }
